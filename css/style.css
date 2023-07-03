@@ -33,7 +33,7 @@ main {
     border: solid 1px black;
     background-color: white;
     margin: 10px;
-    height: 200px;
+    height: 250px;
     width: calc(50% - 25px);
 }
 
