@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*スタイルの初期化*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("../image/7210_1.jpg");
+    background-size: cover;
+}
+
+header {
+    height: 80px;
+    background-color: darkturquoise;
+}
+
+.header_wrapper {
+    width: 960px;
+    margin: 0 auto;
+    line-height: 80px;
+}
+
+main {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.main_element {
+    display: inline-block;
+    border: solid 1px black;
+    background-color: white;
+    margin: 10px;
+    height: 200px;
+    width: calc(50% - 25px);
+}
+
+.main_element:hover {
+    background-color: deepskyblue;
+    color: white;
+    transition: 1s;
+}
