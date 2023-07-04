@@ -17,12 +17,14 @@ const indicate_time = () => {
         }
         return sn;
     }
+    const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
     let now = new Date();
     let month = zfill2(now.getMonth() + 1);
     let date = zfill2(now.getDate());
+    let day = days[now.getDay()];
     let hour = zfill2(now.getHours());
     let minute = zfill2(now.getMinutes());
     let second = zfill2(now.getSeconds());
-    time.textContent = `${month}/${date} ${hour}:${minute}:${second}`;
+    time.textContent = `${month}/${date} (${day}) ${hour}:${minute}:${second}`;
 }
 setInterval(indicate_time, 1000);
