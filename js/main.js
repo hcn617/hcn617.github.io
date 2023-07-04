@@ -10,6 +10,9 @@ if (width < 700) {
 // 現在時刻を表示
 const indicate_time = () => {
     const time = document.getElementById("now-time");
+    if (time == null) {
+        return;
+    }
     const zfill2 = (num) => {
         let sn = String(num);
         if (sn.length === 1) {
