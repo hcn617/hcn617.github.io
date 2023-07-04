@@ -1,9 +1,9 @@
-// スマホとかで横幅がせまいとき、サブタイトルを削除する
+// スマホとかで横幅がせまいとき、only-pcクラスの要素を削除する
 const width = window.screen.width;
 if (width < 700) {
     const pc_elements = document.getElementsByClassName("only-pc");
-    for (element of pc_elements) {
-        element.remove();
+    while (pc_elements.length > 0) {
+        pc_elements[0].remove();
     }
 }
 
