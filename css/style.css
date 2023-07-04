@@ -9,6 +9,7 @@
 body {
     background-image: url("../image/7210_1.jpg");
     background-size: cover;
+    height: 100vh;
 }
 
 header {
