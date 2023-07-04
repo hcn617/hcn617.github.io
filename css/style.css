@@ -20,6 +20,8 @@ header {
     width: 60%;
     margin: 0 auto;
     line-height: 10vh;
+    display: flex;
+    justify-content: space-between;
 }
 
 header h1 {
