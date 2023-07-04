@@ -12,18 +12,18 @@ body {
 }
 
 header {
-    height: 80px;
+    height: 10vh;
     background-color: darkturquoise;
 }
 
 .header_wrapper {
-    width: 960px;
+    width: 60%;
     margin: 0 auto;
-    line-height: 80px;
+    line-height: 10vh;
 }
 
 main {
-    width: 960px;
+    width: 60%;
     margin: 0 auto;
     margin-top: 80px;
 }
