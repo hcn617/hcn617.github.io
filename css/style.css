@@ -62,7 +62,7 @@ main {
 }
 
 .main_element:hover {
-    background-color: deepskyblue;
+    background-color: mediumaquamarine;
     color: white;
     transition: 1s;
 }
