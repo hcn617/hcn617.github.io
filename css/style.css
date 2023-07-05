@@ -7,14 +7,14 @@
 }
 
 body {
-    background-image: url("../image/7210_1.jpg");
+    background-image: url("../image/23949892.jpg");
     background-size: cover;
     height: 100vh;
 }
 
 header {
     height: 10vh;
-    background-color: darkturquoise;
+    background-color: paleturquoise;
 }
 
 .header_wrapper {
@@ -45,7 +45,7 @@ main {
     color: black;
     border: solid 1px black;
     background-color: white;
-    margin: 2vh 0;
+    margin: 4vh 0;
     padding: 0 3vw;
     height: 15vh;
     width: 60vw;
