@@ -18,7 +18,7 @@ header {
 }
 
 .header_wrapper {
-    width: 60%;
+    width: 60vw;
     margin: 0 auto;
     line-height: 10vh;
     display: flex;
@@ -31,9 +31,9 @@ header h1 {
 }
 
 main {
-    width: 60%;
+    width: 60vw;
     margin: 0 auto;
-    margin-top: 5vh;
+    padding-top: 5vh;
 }
 
 .main_element {
@@ -71,4 +71,13 @@ main {
     .header_wrapper {
         justify-content: center;
     }
+}
+
+#PythonED_table {
+    margin: 0 auto;
+    margin-top: 5vh;
+}
+
+#PythonED_table tr {
+    text-align: center;
 }
