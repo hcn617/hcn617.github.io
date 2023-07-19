@@ -56,6 +56,16 @@ const title = [
     "暗号関連",
     "並行処理、並列処理"
 ];
+let memo = [];
+for (let i = 0; i < 19; i++) {
+    memo.push("");
+}
+memo[4] = "5.1 のみ";
+memo[7] = "8.4を 除く";
+memo[8] = "9.3, 9.5 を除く";
+memo[12] = "13.1, 13.2 のみ";
+memo[13] = "14.3, 14.5 を除く";
+
 const page = [
     17 - 2,
     39 - 18,
@@ -88,6 +98,10 @@ for (let i = 0; i < 19; i++) {
     let col2 = document.createElement("td");
     col2.textContent = title[i];
     new_row.append(col2);
+
+    let col6 = document.createElement("td");
+    col6.textContent = memo[i];
+    new_row.append(col6);
 
     let col3 = document.createElement("td");
     col3.textContent = page[i];
